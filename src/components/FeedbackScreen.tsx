@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const FeedbackScreen = () => {
   const answers: string[][] = JSON.parse(localStorage.getItem('userAnswers') || '[]');

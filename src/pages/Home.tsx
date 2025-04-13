@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { fetchQuestions } from "../utils/fetchQuestions";
 import QuestionCard from "../components/QuestionCard";
 import Timer from "../components/Timer";
-import { Question, QuizData } from "../utils/types";
+import { QuizData } from "../utils/types";
 
 const Home: React.FC = () => {
   const [quizData, setQuizData] = useState<QuizData | null>(null);
